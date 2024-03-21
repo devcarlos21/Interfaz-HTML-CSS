@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Freelancer</title>
+
+    <!-- ACOMODA EN ORDEN LAS LIBRERIAS (CASCADA) -->
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Para las fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+
+    <!-- CARGUE DESDE ANTES LA HOJA DE ESTILOS (MÁS RÁPIDO) -->
+    <link rel="preload" href="css/style.css" as="style">
+    <!-- ENLAZO EL ARCHIVO CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Carlos Reyes <span>Freelancer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+            <!--<img src="home.jpg" alt="Not found">-->
+        </nav>
+    </div>
+    
+    <!-- <img src="img/home.jpg" alt="not fopund"> -->
+
+    <section class="home">
+        <div class="contenido-home">
+
+            <h2>Diseño y Desarrollo Web <span>Freelancer</span></h2>
+
+            <!--Código de ícono desde Tabler Icons-->
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="64" height="64" viewBox="0 0 24 24" stroke-width="1" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" />
+                <path d="M9 4v13" />
+                <path d="M15 7v5.5" />
+                <path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" />
+                <path d="M19 18v.01" />
+            </svg>
+
+            <p>Toluca, México</p>
+
+            <a class="boton" href="#">Contactar</a>
+
+        </div> <!-- Termina contenido-home-->
+    </section>
+
+    <main class="contenedor sombra"> <!--NO PUEDE HABER DOS MAIN-->
+        <!--Contenido PRINCIPAL del sitio web-->
+        <!--Nuestros SERVICIOS, lo que HACEMOS-->
+        <h2>Mis Servicios</h2>
+
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-codepen" width="64" height="64" viewBox="0 0 24 24" stroke-width="1" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 15l9 6l9 -6l-9 -6l-9 6" />
+                        <path d="M3 9l9 6l9 -6l-9 -6l-9 6" />
+                        <path d="M3 9l0 6" />
+                        <path d="M21 9l0 6" />
+                        <path d="M12 3l0 6" />
+                        <path d="M12 15l0 6" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo temporibus perspiciatis eos mollitia, ipsa dolores tempore molestias alias. Nihil odio molestias pariatur quo dolores eligendi nostrum sunt libero provident tempore.</p>
+            </section>
+    
+            <section class="servicio">
+                <h3>Aplicaciones Moviles</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="64" height="64" viewBox="0 0 24 24" stroke-width="1" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M13 9a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-10z" />
+                        <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
+                        <path d="M16 9h2" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo temporibus perspiciatis eos mollitia, ipsa dolores tempore molestias alias. Nihil odio molestias pariatur quo dolores eligendi nostrum sunt libero provident tempore.</p>
+            </section>
+    
+            <section class="servicio">
+                <h3>E-Commerce</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="64" height="64" viewBox="0 0 24 24" stroke-width="1" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo temporibus perspiciatis eos mollitia, ipsa dolores tempore molestias alias. Nihil odio molestias pariatur quo dolores eligendi nostrum sunt libero provident tempore.</p>
+            </section>
+        </div> <!-- .servicios-->
+
+    
+
+    
+        <section>
+            <h2>Contacto</h2>
+
+            <form action="" class="formulario">
+                <fieldset>
+                    <!-- MENSAJES DE FORMULARIOS -->
+                    <legend>Contáctame llenando todos los campos</legend>
+                    
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre: </label>
+                            <input class="estilo-input-text" type="text" placeholder="Escribe tu nombre aquí">
+                        </div>
+    
+                        <div class="campo">
+                            <label>Teléfono: </label>
+                            <input class="estilo-input-text" type="tel" placeholder="Tu teléfono aquí">
+                        </div>
+    
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="estilo-input-text" type="email" placeholder="Aquí tu email">
+                        </div>
+    
+                        <div class="campo">
+                            <!-- AQUI USAMOS UN TEXT-AREA YA QUE SE PUEDE EXPANDIR -->
+                            <label>Mensaje</label>
+                            <textarea class="estilo-input-text"></textarea>
+                        </div>
+                        
+                        <div class="alinear-derecha flex">
+                            <!-- Podemos usar un input o button -->
+                            <!-- <button>Enviar</button> -->
+                            <input class="boton w-small-100" type="submit" placeholder="Enviar">
+                        </div>
+
+                    </div> <!-- Termina contenedor campos-->
+                    
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+    
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Carlos Reyes Freelancer</p>
+    </footer>
+
+</body>
+</html>
